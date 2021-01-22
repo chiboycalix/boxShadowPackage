@@ -1,4 +1,4 @@
-# what is does this package do?
+# what does this package do?
 
 Adds the perfect shadow to your HTML element. It is highly customizable
 
