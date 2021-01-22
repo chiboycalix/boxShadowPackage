@@ -1,0 +1,22 @@
+{
+  "name": "boxshadowhelper",
+  "version": "1.0.0",
+  "description": "A utility package for adding box shadow to your html block elements",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiboycalix/boxShadowPackage.git"
+  },
+  "keywords": [
+    "css box shadow"
+  ],
+  "author": "Igwe Chinonso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiboycalix/boxShadowPackage/issues"
+  },
+  "homepage": "https://github.com/chiboycalix/boxShadowPackage#readme"
+}
