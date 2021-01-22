@@ -9,18 +9,18 @@ Adds the perfect shadow to your HTML element. It is highly customizable
 Then...
 
 ```
-import {boxShadow} from 'boxshadowhelper
+import {boxShadow} from 'boxshadowhelper'
 
 boxShadow({
-  shadow_type: "hard | soft",
-  shadow_color:"#ffffff",
-  shadow_position: "inset | """
+  shadowType: "hard | soft",
+  shadowColor:"#ffffff",
+  shadowPosition: "inset | """
 })
 ```
 
 ## Options
 
 boxshadowhelper supports 3 options
-* *shadow_type*
-* *shadow_color*
-* *shadow_position*
+* *shadowType*
+* *shadowColor*
+* *shadowPosition*

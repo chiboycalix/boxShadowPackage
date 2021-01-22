@@ -15,16 +15,16 @@ function hexToRgbA(hex) {
 
 function boxShadow(options) {
 	const elements = document.querySelectorAll('.boxShadow');
-	if (options.shadow_type === 'hard') {
-		options.shadow_type = `0px`;
+	if (options.shadowType === 'hard') {
+		options.shadowType = `0px`;
 	} else {
-		options.shadow_type = `10px`;
+		options.shadowType = `10px`;
 	}
-	const rgbaColor = hexToRgbA(options.shadow_color);
+	const rgbaColor = hexToRgbA(options.shadowColor);
 
 	for (let i = 0; i < elements.length; i++) {
-		elements[i].style.boxShadow = `0px 1px ${options.shadow_type} 1px ${options.shadow_color ? rgbaColor : 'rgba(0, 0, 0, 0.2)'
-			} ${options.shadow_position ? options.shadow_position : ''}`;
+		elements[i].style.boxShadow = `0px 1px ${options.shadowType} 1px ${options.shadowColor ? rgbaColor : 'rgba(0, 0, 0, 0.2)'
+			} ${options.shadowPosition ? options.shadowPosition : ''}`;
 	}
 }
 
