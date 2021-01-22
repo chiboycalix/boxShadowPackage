@@ -1,6 +1,6 @@
 {
   "name": "boxshadowhelper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A utility package for adding box shadow to your html block elements",
   "main": "index.js",
   "scripts": {
